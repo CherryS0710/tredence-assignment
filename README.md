@@ -36,21 +36,6 @@ This workflow engine enables you to build and execute agent-like workflows where
 - **API Style**: RESTful
 - **Execution Model**: Asynchronous
 
-## Project Structure
-
-```
-workflow-engine/
-├── app/
-│   ├── main.py              # FastAPI application entry point
-│   ├── models/              # Pydantic models for state and workflows
-│   ├── engine/              # Core workflow execution engine
-│   ├── nodes/               # Node implementations
-│   ├── workflows/           # Workflow definitions
-│   └── api/                 # REST API endpoints
-├── tests/                   # Test suite
-├── requirements.txt         # Python dependencies
-└── README.md
-```
 
 ## Installation
 
